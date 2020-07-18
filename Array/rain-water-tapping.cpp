@@ -2,19 +2,6 @@
 #define int long long
 using namespace std;
 
-//PRINT VECTOR
-// void print(vector<int> itrable)
-// {
-//     cout << "[ ";
-//     for (int i = 0; i < itrable.size(); ++i)
-//     {
-//         cout << itrable[i];
-//         if (i != itrable.size() - 1)
-//             cout << ", ";
-//     }
-//     cout << " ]" << endl;
-// }
-
 //Rain water tapping Problem
 
 int fx(vector<int> &array)
@@ -53,9 +40,6 @@ int fx(vector<int> &array)
         }
     }
 
-    // print(lmax);
-    // print(array);
-    // print(rmax);
     return count;
 }
 
