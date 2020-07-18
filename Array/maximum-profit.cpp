@@ -29,7 +29,6 @@ int fx(vector<int> &array, int start, int end)
 //Maximum profit O( n ) approach
 int fxx(vector<int> &array)
 {
-
     int profit = 0;
 
     for (int i = 1; i < array.size(); ++i)
@@ -41,19 +40,6 @@ int fxx(vector<int> &array)
         }
     }
     return profit;
-}
-
-//PRINT VECTOR
-void print(vector<int> itrable)
-{
-    cout << "[ ";
-    for (int i = 0; i < itrable.size(); ++i)
-    {
-        cout << itrable[i];
-        if (i != itrable.size() - 1)
-            cout << ", ";
-    }
-    cout << " ]" << endl;
 }
 
 signed main()
